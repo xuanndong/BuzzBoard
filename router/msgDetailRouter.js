@@ -4,6 +4,6 @@ const getmsgDetails = require("../controller/msgDetailController");
 
 
 // message details
-msgDetailRouter.get("/:user", getmsgDetails);
+msgDetailRouter.get("/:name", getmsgDetails);
 
 module.exports = msgDetailRouter;

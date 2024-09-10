@@ -1,4 +1,4 @@
-node_modules/
+node_module/
 .env
 .eslintrc.json
 jsconfig.json

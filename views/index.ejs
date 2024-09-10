@@ -13,14 +13,15 @@
         <%messages.forEach((message)=>{%>
             <div class="messagebox">
             <ul>
-                <li><%=message.user%></li>
+                <li><%=message.name%></li>
                 <li><%=message.text%></li>
                 <li><%=message.added%></li>
             </ul>
             
             
-            <a href="/msgDetails/<%=message.user%>?text=<%=message.text%>&added=<%=message.added%>"><button id="openbtn">OPEN</button></a>
+            <a href="/msgDetails/<%=message.name%>"><button id="openbtn">OPEN</button></a>
             </div>
             <%});%>
-        </body>
+       </body>
 </html>
+
